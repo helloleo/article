@@ -4,7 +4,7 @@ date: 2012-02-17
 category: Code
 
 ---
-对于flask引用的部署方式一直比较迷惑，尝试过了fcgi和uwsgi的方式来部署，最后还是决定使用supervisor启动多个包裹着flask应用的tornado应用进程的方法来部署，有点绕哈。这样做的好处是可以通过supervisor来逐个重启每个进程，保证不会因为更新代码而导致暂时不可访问。
+对于flask应用的部署方式一直比较迷惑，尝试过了fcgi和uwsgi的方式来部署，最后还是决定使用supervisor启动多个包裹着flask应用的tornado应用进程的方法来部署，貌似这句话有点绕，看完全文应该就明白了。这样做的好处是可以通过supervisor来逐个重启每个进程，保证不会因为更新代码而导致暂时不可访问。
 
 思路就是使用tornado来启动flask应用；supervisor来管理守护tornado进程；nginx来做服务器前端负载均衡。
 
