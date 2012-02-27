@@ -1,5 +1,6 @@
 ---
-title: lift  
+title: 间歇性的思考人生  
+category: life  
 date: 2012-02-06
 
 ---
