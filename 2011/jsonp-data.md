@@ -1,8 +1,8 @@
 ---
 
 title: 原生 JS 通过 JSONP 获取数据  
+category: code  
 date: 2011-08-21  
-category: Code
 
 ---
 
