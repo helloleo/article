@@ -52,7 +52,7 @@ date: 2011-08-21
 最大的不足是没有错误处理，解决办法可以参考：http://www.cnblogs.com/snandy/archive/2011/05/05/2034312.html
 
 
-### 参考文章：
+#### 参考文章：
 
 Ajax数据载体JSON与JSONP
 http://www.nowamagic.net/ajax/ajax_JsonAndJsonp.php
