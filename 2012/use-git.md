@@ -1,10 +1,8 @@
----
+# 在Debian上使用git  
+- category: code  
+- date: 2012-02-12  
 
-title: 在Debian上使用git  
-category: code  
-date: 2012-02-12  
-
----
+---------------
 
 #### 安装git
 

@@ -1,10 +1,8 @@
----
+# python virtualenv 使用笔记  
+- category: code  
+- date: 2012-02-12  
 
-title: python virtualenv 使用笔记  
-category: code  
-date: 2012-02-12  
-
----
+---------------
 
 系统环境为Debian6、python2.6
 

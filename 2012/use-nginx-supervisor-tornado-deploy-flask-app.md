@@ -1,10 +1,8 @@
----
+# 使用nginx、supervisor、tornodo部署flask应用  
+- category: code  
+- date: 2012-02-17  
 
-title: 使用nginx、supervisor、tornodo部署flask应用  
-category: code  
-date: 2012-02-17  
-
----
+---------------
 
 对于flask应用的部署方式一直比较迷惑，尝试过了fcgi和uwsgi的方式来部署，最后还是决定使用supervisor启动多个包裹着flask应用的tornado应用进程的方法来部署，貌似这句话有点绕，看完全文应该就明白了。这样做的好处是可以通过supervisor来逐个重启每个进程，保证不会因为更新代码而导致暂时不可访问。
 

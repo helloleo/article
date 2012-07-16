@@ -1,10 +1,8 @@
----
+# tmux 使用笔记  
+- category: code  
+- date: 2012-02-27
 
-title: tmux 使用笔记  
-category: code  
-date: 2012-02-27
-
----
+---------------
 
 #### 什么是tmux？
 tmux 的[维基百科链接](http://en.wikipedia.org/wiki/Tmux)，想要详细了解的筒子请移步。  
